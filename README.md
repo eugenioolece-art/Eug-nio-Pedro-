@@ -3,7 +3,7 @@
 
 Este repositório contém uma implementação robusta de uma **Lista Simplesmente Ligada** em linguagem C, com foco em **inserção ordenada** e manipulação dinâmica de memória.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 O programa oferece um menu interativo para as seguintes operações:
 
@@ -13,7 +13,7 @@ O programa oferece um menu interativo para as seguintes operações:
 4.  **Exibição**: Mostra o estado atual da lista no console.
 5.  **Gestão de Memória**: Utiliza `malloc` e `free` para gerenciamento dinâmico.
 
-## 🛠️ Como Funciona a Lógica
+##  Como Funciona a Lógica
 
 A estrutura principal baseia-se em nós que apontam para o próximo elemento:
 
