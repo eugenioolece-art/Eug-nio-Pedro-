@@ -7,11 +7,12 @@ Este repositório contém uma implementação robusta de uma **Lista Simplesment
 
 O programa oferece um menu interativo para as seguintes operações:
 
-1.  **Inserção Ordenada**: Insere novos elementos mantendo a lista sempre em ordem crescente ($O(n)$).
-2.  **Remoção de Elementos**: Localiza e remove um valor específico, liberando a memória alocada.
-3.  **Busca**: Localiza um valor e retorna a sua posição (índice) na lista.
-4.  **Exibição**: Mostra o estado atual da lista no console.
-5.  **Gestão de Memória**: Utiliza `malloc` e `free` para gerenciamento dinâmico.
+1.  **Inserir elemento**: Insere novos elementos mantendo a lista sempre em ordem crescente ($O(n)$).
+2.  **Remover elementos**: Localiza e remove um valor específico, liberando a memória alocada.
+3.  **Procurar eementos**: Localiza um valor e retorna a sua posição (índice) na lista.
+4.  **Mostrar lista**: Mostra o estado atual da lista no console.
+
+ Utiliza `malloc` e `free` para gerenciamento dinâmico.
 
 ##  Como Funciona a Lógica
 
