@@ -1,25 +1,32 @@
+# Estruturas de Dados e Algoritmos
+## Trabalho Prático
+### Tema
+Implementação de Lista Ligada
 
-# Lista Ligada Simples em C (Ordenada)
+### Grupo
+- Eugenio Pedro Chico Olece 
+- Dercio Filipe Chipura
 
-Este repositório contém uma implementação robusta de uma **Lista Simplesmente Ligada** em linguagem C, com foco em **inserção ordenada** e manipulação dinâmica de memória.
+### Descrição
+O programa implementa uma estrutura de dados do tipo Lista Simplesmente Ligada
+dinâmica. O diferencial desta implementação é a manutenção da ordem dos dados
+(Inserção Ordenada), garantindo que a lista esteja sempre classificada sem a
+necessidade de algoritmos de ordenação externos.
 
-## Funcionalidades
 
-O programa oferece um menu interativo para as seguintes operações:
+### Funcionalidades
+ Inserir elemento
+• Remover elemento
+• Procurar elemento
+• Mostrar lista
 
-1.  **Inserir elemento**: Insere novos elementos mantendo a lista sempre em ordem crescente ($O(n)$).
-2.  **Remover elementos**: Localiza e remove um valor específico, liberando a memória alocada.
-3.  **Procurar elementos**: Localiza um valor e retorna a sua posição (índice) na lista.
-4.  **Mostrar lista**: Mostra o estado atual da lista no console.
 
- Utiliza `malloc` e `free` para gerenciamento dinâmico.
 
-##  Como Funciona a Lógica
+### Linguagem utilizada
+C
+### Como executar
 
-A estrutura principal baseia-se em nós que apontam para o próximo elemento:
-
-```c
-typedef struct Node {
-    int data;
-    struct Node* next;
-} Node;
+Compilar o programa:
+gcc G5.c
+Executar:
+./programa
